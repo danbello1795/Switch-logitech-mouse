@@ -1,0 +1,6 @@
+logitech-switch-channel\Switch-logitech-mouse\windows>.\hidapitester.exe --vidpid 046D:B034 --usage 0x0202 --usagePage 0xff43 --open --length 20 --send-output 0x11,0x00,0x0A,0x1E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00 
+Opening device, vid/pid:0x046D/0xB034, usagePage/usage: FF43/202
+Device opened
+Writing output report of 20-bytes...wrote 20 bytes:
+ 11 00 0A 1E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Closing device
